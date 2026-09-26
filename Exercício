@@ -1,0 +1,18 @@
+Exercício 01
+
+#include <stdio.h>
+
+int main() {
+
+    // Declaração  e inicialização das variáveis
+    char nome[] = "Seu Nome Aqui";
+    int idade = 25;
+    float altura = 1.75;
+
+    // Exibição das informações na tela
+    printf("Nome: %s\n", nome);
+    printf("Idade: %d anos\n", idade);
+    printf("Altura: %.2f metros\n", altura);
+
+    return 0;
+}
