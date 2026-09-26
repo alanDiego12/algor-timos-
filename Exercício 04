@@ -1,0 +1,21 @@
+#include <studio.h>
+
+int main() {
+
+    int idade;
+
+    //leitura da idade 
+    printf("Digite a sua idade:  ");
+    scanf("%d", &idade);
+
+    // Estrutura condicional para verificar a maioridade
+
+    if (idade >= 18) {
+        printf ("a pessoa e maior de idade.\n");
+    } 
+    else{
+        printf("A pessoa e menor de idade.\n");
+    }
+
+    return 0;
+}
