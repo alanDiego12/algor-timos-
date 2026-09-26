@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+    int soma, subtracao, multiplicacao;
+
+    // Leitura dos dois números inteiros
+    printf("Digite o primeiro número inteiro: ");
+    scanf("%d", &num1);
+
+    printf("Digite o segundo número inteiro: ");
+    scanf("%d", &num2);
+
+    // Cálculos
+    soma = num1 + num2;
+    subtracao = num1 - num2;
+    multiplicacao = num1 * num2;
+
+    // Exibição dos resultados
+    printf("\n--- Resultados ---\n");
+    printf("Soma: %d\n", soma);
+    printf("Subtração: %d\n", subtracao);
+    printf("Multiplicação: %d\n", multiplicacao);
+
+    return 0;
+}
