@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int i = 1; // Inicialização da variável de controle
+
+    // O laço executa 'i' for menor ou igual a 20
+
+    while (i <= 20)
+    {
+        /* code */
+        printf ("%d\n", i);
+        i++; // Incrementa 'i' para avançar para o próximo número
+    }
+
+    return 0;
+    
+}
